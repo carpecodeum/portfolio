@@ -1,0 +1,31 @@
+{
+    "experiences": [
+        {
+            "org": "Sustainable Computing Research Organization",
+            "org_icon": "src/assets/icons/experiance/scorelab.svg",
+            "org_url": "https://github.com/scorelab",
+            "position": "LabelLab Maintainer | Contributor",
+            "start_date": "September 2020",
+            "end_date": "Present",
+            "description": "Maintainer of LabelLab which is a highly efficient web based image-labeling tool"
+        },
+        {
+            "org": "Information Management Group, IIT Roorkee",
+            "org_icon": "src/assets/icons/experiance/img.svg",
+            "org_url": "https://internet.channeli.in/maintainer_site/",
+            "position": "Project Manager",
+            "start_date": "January 2020",
+            "end_date": "Present",
+            "description": "IMG maintains the official intranet portal, the homepage and the entire technological backbone of IIT Roorkee"
+        },
+        {
+            "org": "Cognizance, IIT Roorkee",
+            "org_icon": "src/assets/icons/experiance/cogni.svg",
+            "org_url": "",
+            "position": "Web Developer",
+            "start_date": "January 2019",
+            "end_date": "March 2020",
+            "description": "Tech fest of IIT Roorkee"
+        }
+    ]
+}
