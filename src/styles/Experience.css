@@ -1,0 +1,196 @@
+.experience_main {
+    font-family: 'Quattrocento', serif;
+    padding-left: 8vw;
+    height: 46rem;
+}
+
+.experience_header {
+    font-size: 3em;
+    padding-bottom: 4rem;
+}
+
+.experience_box {
+    display: flex;
+    width: 47vw;
+    margin-left: 17vw;
+    margin-top: 2rem;
+}
+
+.experience_box:hover {
+    background-color: #222831;
+    color: white;
+}
+
+.experience_box_left {
+    padding-top: 1rem;
+    padding-left: 1vw;
+}
+
+.experience_box_right {
+    padding: 3%;
+}
+
+.experience_heading {
+    font-size: 2em;
+}
+
+.experience_subheading {
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.6;
+    margin-top: 1rem;
+}
+
+.experience_description {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    margin-top: 1rem;
+    font-size: 1.3em
+}
+
+.experience_image {
+    height: 8rem;
+    width: 6vw;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1580px) {
+
+    .experience_main {
+        height: 45rem;
+        padding-left: 7vw;
+    }
+
+    .experience_box {
+        width: 57vw;
+    }
+
+    .experience_image {
+        height: 8rem;
+        width: 8vw;
+        border: 1px solid black;
+    }
+
+    .experience_description {
+        line-height: 1.5em;
+    }
+
+    .experience_box_right {
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1316px) {
+
+    .experience_box {
+        width: 67vw;
+        margin-left: 14vw;
+    }
+
+    .experience_image {
+        height: 8rem;
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+
+    .experience_box {
+        margin-left: 10vw;
+    }
+
+    .experience_header {
+        font-size: 2.5em;
+    }
+
+    .experience_heading {
+        font-size: 1.7em;
+    }
+
+    .experience_description {
+        font-size: 1.1em
+    }
+
+    .experience_image {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 882px) {
+
+    .experience_heading {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+
+    .experience_image {
+        width: 11vw;
+    }
+}
+
+@media screen and (max-width: 664px) {
+
+    .experience_header {
+        font-size: 2.2em;
+    }
+
+    .experience_heading {
+        font-size: 1.2em;
+    }
+
+    .experience_image {
+        width: 15vw;
+    }
+
+    .experience_box {
+        margin-left: 3vw;
+        width: 88vw;
+    }
+
+    .experience_box_right {
+        padding: 2.5%;
+    }
+
+    .experience_description {
+        font-size: 0.9em;
+        margin-top: 0.5rem;
+    }
+
+    .experience_subheading {
+        font-size: 0.8em;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .experience_main {
+        height: 35rem;
+    }
+
+    .experience_header {
+        font-size: 1.9em;
+        padding-bottom: 2rem;
+    }
+
+    .experience_box {
+        margin-left: 3vw
+    }
+
+    .experience_image {
+        height: 4rem;
+    }
+
+    .experience_heading {
+        font-size: 0.9em;
+    }
+
+    .experience_subheading {
+        font-size: 0.5em;
+        margin-top: 0rem;
+    }
+
+    .experience_description {
+        font-size: 0.6em;
+        margin-top: 0rem;
+    }
+}

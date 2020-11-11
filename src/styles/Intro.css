@@ -1,0 +1,294 @@
+.intro_parent {
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quattrocento', serif;
+    width: 100%;
+    line-height: 1.8em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.left_box {
+    width: 46vw;
+    height: 28rem;
+}
+
+.right_box {
+    background-color: black;
+    height: 28rem;
+    width: 33vw;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.sub_right_box {
+    background-color: white;
+    width: 17vw;
+    height: 17vw;
+    margin-top: 2rem;
+}
+
+.image_box {
+    position: absolute;
+    left: -2vw;
+    top: 3rem;
+}
+
+.profile_pic {
+    height: 24rem;
+}
+
+.head_box {
+    height: auto;
+    width: 39vw;
+    margin-left: 8vw;
+    font-size: 3.7em;
+    font-weight: 300;
+    margin-top: 4rem;
+    text-align: left;
+    line-height: 4rem;
+}
+
+.intro_box {
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    text-align: left;
+    width: 38vw;
+    margin-left: 8.3vw;
+    margin-top: 3rem;
+    font-size: 1.5em;
+    line-height: 2rem;
+}
+
+.social_box {
+    height: auto;
+    text-align: left;
+    width: 38vw;
+    margin-left: 8.3vw;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons_parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons_box {
+    margin-right: 1vw;
+}
+
+.icons_parent .tooltiptext {
+    visibility: hidden;
+    width: 4vw;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3vw;
+    margin-left: -0.9vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+
+.icons_parent:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media screen and (max-width: 1824px) {
+
+    .profile_pic {
+        height: 23rem;
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 1734px) {
+    
+    .right_box {
+        height: 26rem;
+    }
+
+    .profile_pic {
+        height: 21rem;
+    }
+}
+
+@media screen and (max-width: 1628px) {
+
+    .social_box {
+        margin-top: 7rem;
+    }
+
+    .head_box {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 1538px) {
+
+    .social_box {
+        margin-top: 6rem;
+    }
+
+    .head_box {
+        font-size: 3.3em;
+    }
+
+    .profile_pic {
+        height: 19rem;
+    }
+
+    .right_box {
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .head_box {
+        font-size: 3.3em;
+        width:50vw;
+    }
+
+    .profile_pic {
+        height: 17rem;
+    }
+
+    .right_box {
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1312px) {
+
+    .intro_box {
+        width: 50vw;
+        font-size: 1.3em;
+    }
+
+    .social_box {
+        margin-top: 5rem;
+    }
+
+    .profile_pic {
+        height: 16rem;
+    }
+}
+
+@media screen and (max-width: 1158px) {
+
+    .right_box {
+        height: 20rem;
+    }
+
+    .profile_pic {
+        height: 15rem;
+    }
+
+    .head_box {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1038px) {
+
+    .sub_right_box {
+        height: 18vw;
+    }
+
+    .profile_pic {
+        height: 14rem;
+    }
+
+    .left_box {
+        height: 36rem;
+    }
+
+    .head_box {
+        margin-top: 3rem;
+    }
+
+    .social_box {
+        margin-top: 3rem;
+    }
+
+    .intro_box {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .sub_right_box {
+        height: 25vw;
+    }
+
+    .profile_pic {
+        height: 13rem;
+    }
+
+    .intro_box {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 728px) {
+
+    .sub_right_box {
+        display: none;
+    }
+
+    .right_box {
+        visibility: hidden;
+    }
+
+    .profile_pic {
+        visibility: visible;
+        width: 23vw;
+    }
+
+    .social_box {
+        width: 50vw;
+    }
+
+    .icons_box {
+        margin-right: 4vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .profile_pic {
+        display: none;
+    }
+
+    .right_box {
+        display: none;
+    }
+
+    .social_box {
+        width: 80vw;
+        margin-left: 6vw;
+    }
+
+    .icons_box {
+        margin-right: 8vw;
+    }
+
+    .head_box {
+        width: 70vw;
+        margin-left: 6vw;
+    }
+
+    .intro_box {
+        width: 80vw;
+        margin-left: 6vw;
+    }
+}

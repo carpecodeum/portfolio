@@ -1,0 +1,253 @@
+.projects_container {
+    font-family: 'Quattrocento', serif;
+    padding-left: 8vw;
+    height: 46rem;
+}
+
+.project_header {
+    font-size: 3em;
+    padding-bottom: 2.5rem;
+}
+
+.projects_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 8vw;
+    margin-left: -1vw;
+    /* background-color: red; */
+}
+
+.project_box {
+    width: 37vw;
+    margin-bottom: 1rem;
+    /* background-color: red; */
+}
+
+.project_box:hover {
+    background-color: #222831;
+    color: white;
+}
+
+.project_text {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+
+.project_title {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.7em;
+    margin-bottom: 1rem;
+}
+
+.project_description {
+    margin-bottom: 1rem;
+    line-height: 1.7em;
+}
+
+.project_info {
+    padding-bottom: 1rem;
+    opacity: 0.6;
+}
+
+.light_icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.dark_icons {
+    display: none;
+}
+
+.project_box:hover .dark_icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.project_box:hover .light_icons {
+    display: none;
+}
+
+.icons_parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons_box {
+    margin-right: 1vw;
+}
+
+.icons_parent .tooltiptext {
+    visibility: hidden;
+    /* width: 4vw; */
+    background-color: #faf9f9;
+    color: #222831;
+    text-align: center;
+    padding: 4px 7px;
+    position: absolute;
+    z-index: 1;
+    /* margin-bottom: 7vw; */
+    margin-left: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+}
+
+.icons_parent:hover .tooltiptext {
+    visibility: visible;
+}
+
+.project_images {
+    width: 36px;
+    height: 36px;
+}
+
+@media screen and (max-width: 1510px) {
+
+    .projects_container {
+        height: 45rem;
+    }
+
+    .project_header {
+        font-size: 2.7em;
+        padding-bottom: 3rem;
+    }
+
+    .project_title {
+        margin-bottom: 0.8rem;
+        font-size: 1.5em;
+    }
+
+    .project_info {
+        padding-bottom: 0.8rem;
+    }
+
+    .project_description {
+        font-size: 0.8em;
+        margin-bottom: 0.8rem;
+    }
+
+    .project_images {
+        width: 30px;
+        height: 30px;
+    }
+
+    .project_box {
+        margin-bottom: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+
+    .project_header {
+        font-size: 2.5em;
+    }
+
+    .project_title {
+        margin-bottom: 0.6rem;
+        font-size: 1.3em;
+    }
+
+    .project_info {
+        line-height: 1.5em;
+        padding-bottom: 0.6rem;
+        font-size: 0.7em;
+    }
+
+    .project_description {
+        margin-bottom: 0.6rem;
+    }
+
+    .project_images {
+        width: 25px;
+        height: 25px;
+    }
+
+    .project_box {
+        margin-bottom: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 882px) {
+
+    .project_description {
+        font-size: 0.6em;
+        margin-bottom: 0.6rem;
+    }
+
+    .project_info {
+        font-size: 0.6em;
+    }
+
+    .project_box {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 664px) {
+
+    .project_header {
+        font-size: 2.2em;
+        padding-bottom: 2rem;
+    }
+
+    .project_title {
+        margin-bottom: 0.4rem;
+        font-size: 1.1em;
+    }
+
+    .project_info {
+        padding-bottom: 0.4rem;
+    }
+
+    .project_description {
+        font-size: 0.5em;
+        margin-bottom: 0.6rem;
+    }
+
+    .project_images {
+        width: 20px;
+        height: 20px;
+    }
+
+    .project_box {
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .projects_container {
+        height: 35rem;
+    }
+
+    .project_header {
+        font-size: 1.9em;
+        padding-bottom: 1rem;
+    }
+
+    .project_title {
+        margin-bottom: 0.4rem;
+        font-size: 0.9em;
+    }
+
+    .project_info {
+        padding-bottom: 0.3rem;
+    }
+
+    .project_description {
+        font-size: 0.4em;
+        margin-bottom: 0.5rem;
+    }
+
+    .project_images {
+        width: 20px;
+        height: 20px;
+    }
+
+    .project_box {
+        margin-bottom: 0.2rem;
+    }
+}
