@@ -1,0 +1,13 @@
+.footer {
+    height: 10rem;
+    background-color: black;
+}
+.content {
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Quattrocento', serif;
+    /* font-family: 'Chivo', sans-serif; */
+    font-size: 1.5em;
+    width: 34vw;
+    line-height: 1.8em;
+}

@@ -1,0 +1,45 @@
+{
+    "components" : [
+        {
+            "nomenclature": {
+                "name": "Intro",
+                "verboseName": "Introduction"
+              },
+              "baseAnchor": "intro"
+        },
+        {
+            "nomenclature": {
+                "name": "Projects",
+                "verboseName": "Projects"
+              },
+              "baseAnchor": "projects"
+        },
+        {
+            "nomenclature": {
+                "name": "Experience",
+                "verboseName": "Experience"
+              },
+              "baseAnchor": "experience"
+        },
+        {
+            "nomenclature": {
+                "name": "Skills",
+                "verboseName": "Skills"
+              },
+              "baseAnchor": "skills"
+        },
+        {
+            "nomenclature": {
+                "name": "About_me",
+                "verboseName": "About Me"
+              },
+              "baseAnchor": "about_me"
+        },
+        {
+            "nomenclature": {
+                "name": "footer"
+              },
+              "baseAnchor": "footer"
+        }
+    ]
+}
