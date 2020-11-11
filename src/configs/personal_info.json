@@ -1,8 +1,8 @@
 {
     "name": "Aditya Bhatnagar",
-    "profile_pic": "src/assets/profile_pic.png",
-    "resume": "src/assets/Aditya_Bhatnagar_CV.pdf",
-    "collage": "src/assets/collage.png",
+    "profile_pic": "assets/profile_pic.png",
+    "resume": "assets/Aditya_Bhatnagar_CV.pdf",
+    "collage": "assets/collage.png",
     "institute": "Indian Institute of Technology, Roorkee",
     "branch": "Chemical Engineering",
     "year_name": "junior",
@@ -21,23 +21,23 @@
     "strengths": "I focus on writing resuable, clean and maintainable code and I love problems-solving and critical thinking and my techical background facilitates that.",
     "socials": {
         "Github": {
-            "icon": "src/assets/icons/profile/github.svg",
+            "icon": "assets/icons/profile/github.svg",
             "link": "https://github.com/carpecodeum"
         },
         "Gmail": {
-            "icon": "src/assets/icons/profile/gmail.svg",
+            "icon": "assets/icons/profile/gmail.svg",
             "link": "mailto:adityabhatnagar14@gmail.com"
         },
         "Facebook": {
-            "icon": "src/assets/icons/profile/facebook.svg",
+            "icon": "assets/icons/profile/facebook.svg",
             "link": "https://www.facebook.com/aditya.bhatnagar.355744"
         },
         "Linkedin": {
-            "icon": "src/assets/icons/profile/linkedin.svg",
+            "icon": "assets/icons/profile/linkedin.svg",
             "link": "https://www.linkedin.com/in/aditya-bhatnagar-2421a3178/"
         },
         "Medium": {
-            "icon": "src/assets/icons/profile/medium.svg",
+            "icon": "assets/icons/profile/medium.svg",
             "link": "https://medium.com/@abhatnagar_91984"
         }
     },

@@ -2,7 +2,7 @@
     "experiences": [
         {
             "org": "Sustainable Computing Research Organization",
-            "org_icon": "src/assets/icons/experiance/scorelab.svg",
+            "org_icon": "assets/icons/experiance/scorelab.svg",
             "org_url": "https://github.com/scorelab",
             "position": "LabelLab Maintainer | Contributor",
             "start_date": "September 2020",
@@ -11,7 +11,7 @@
         },
         {
             "org": "Information Management Group, IIT Roorkee",
-            "org_icon": "src/assets/icons/experiance/img.svg",
+            "org_icon": "assets/icons/experiance/img.svg",
             "org_url": "https://internet.channeli.in/maintainer_site/",
             "position": "Project Manager",
             "start_date": "January 2020",
@@ -20,7 +20,7 @@
         },
         {
             "org": "Cognizance, IIT Roorkee",
-            "org_icon": "src/assets/icons/experiance/cogni.svg",
+            "org_icon": "assets/icons/experiance/cogni.svg",
             "org_url": "",
             "position": "Web Developer",
             "start_date": "January 2019",

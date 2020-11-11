@@ -2,95 +2,95 @@
     "Computer Languages": [
         {
             "name": "C++",
-            "icon": "src/assets/icons/skills/cpp.svg"
+            "icon": "assets/icons/skills/cpp.svg"
         },
         {
             "name": "Python",
-            "icon": "src/assets/icons/skills/python.svg"
+            "icon": "assets/icons/skills/python.svg"
         },
         {
             "name": "JavaScript",
-            "icon": "src/assets/icons/skills/js.svg"
+            "icon": "assets/icons/skills/js.svg"
         },
         {
             "name": "GoLang",
-            "icon": "src/assets/icons/skills/go.svg"
+            "icon": "assets/icons/skills/go.svg"
         },
         {
             "name": "Swift",
-            "icon": "src/assets/icons/skills/swift.svg"
+            "icon": "assets/icons/skills/swift.svg"
         }
     ],
     "Web": [
         {
             "name": "Node.js",
-            "icon": "src/assets/icons/skills/nodejs.svg"
+            "icon": "assets/icons/skills/nodejs.svg"
         },
         {
             "name": "React.js",
-            "icon": "src/assets/icons/skills/react.svg"
+            "icon": "assets/icons/skills/react.svg"
         },
         {
             "name": "Flask",
-            "icon": "src/assets/icons/skills/flask.svg"
+            "icon": "assets/icons/skills/flask.svg"
         },
         {
             "name": "Redux",
-            "icon": "src/assets/icons/skills/redux.svg"
+            "icon": "assets/icons/skills/redux.svg"
         },
         {
             "name": "Node.js",
-            "icon": "src/assets/icons/skills/nodejs.svg"
+            "icon": "assets/icons/skills/nodejs.svg"
         },
         {
             "name": "MySQL",
-            "icon": "src/assets/icons/skills/mysql.svg"
+            "icon": "assets/icons/skills/mysql.svg"
         },
         {
             "name": "PostgreSQL",
-            "icon": "src/assets/icons/skills/postgresql.svg"
+            "icon": "assets/icons/skills/postgresql.svg"
         },
         {
             "name": "MongoDB",
-            "icon": "src/assets/icons/skills/mongodb.svg"
+            "icon": "assets/icons/skills/mongodb.svg"
         },
         {
             "name": "Webpack",
-            "icon": "src/assets/icons/skills/webpack.svg"
+            "icon": "assets/icons/skills/webpack.svg"
         },
         {
             "name": "Google Cloud Platform",
-            "icon": "src/assets/icons/skills/gcp.svg"
+            "icon": "assets/icons/skills/gcp.svg"
         }
     ],
     "Dev Tools": [
         {
             "name": "Git",
-            "icon": "src/assets/icons/skills/git.svg"
+            "icon": "assets/icons/skills/git.svg"
         },
         {
             "name": "Docker",
-            "icon": "src/assets/icons/skills/docker.svg"
+            "icon": "assets/icons/skills/docker.svg"
         },
         {
             "name": "VSCode",
-            "icon": "src/assets/icons/skills/vscode.svg"
+            "icon": "assets/icons/skills/vscode.svg"
         },
         {
             "name": "Jupyter Notebook",
-            "icon": "src/assets/icons/skills/jupyter.svg"
+            "icon": "assets/icons/skills/jupyter.svg"
         },
         {
             "name": "Postman",
-            "icon": "src/assets/icons/skills/postman.svg"
+            "icon": "assets/icons/skills/postman.svg"
         },
         {
             "name": "Vim",
-            "icon": "src/assets/icons/skills/vim.svg"
+            "icon": "assets/icons/skills/vim.svg"
         },
         {
             "name": "GitHub",
-            "icon": "src/assets/icons/skills/github.svg"
+            "icon": "assets/icons/skills/github.svg"
         }
     ]
 }
