@@ -1,0 +1,337 @@
+.moved {
+    background-color: white;
+    z-index: 100;
+    height: 6rem;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.fixed {
+    background-color: white;
+    z-index: 100;
+    height: 6rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+
+.parent_content_box {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    width: 95%;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.left_content_box {
+    font-family: 'Chivo', serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: black;
+}
+
+.right_content_box {
+    margin-left: 11rem;
+    display: flex;
+    flex-direction: row;
+    width: 58vw;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+}
+
+.parent_pages_box {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 6.5vw;
+    text-align: center;
+}
+
+.pages_box {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.pages_box:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.pages_box:active {
+    outline: none;
+    border: none;
+}
+
+.pages_box:focus {
+    outline: 0;
+}
+
+.pages_box::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin-top: 0.5rem;
+}
+
+.pages_box:hover::after {
+    width: 100%;
+}
+
+.active_page_box {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;  
+}
+
+.active_page_box::after {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.active_page_box:active {
+    outline: none;
+    border: none;
+}
+
+.active_page_box:focus {
+    outline: 0;
+}
+
+.pages_navbar_open {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    background-color: black;
+    text-align: center;
+    height: 62rem;
+    width: 67vw;
+}
+
+.pages_navbar {
+    display: none;
+}
+
+.parent_pages_box_dropdown {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: -1vw;
+    text-align: center;
+}
+
+.navbar_button {
+    position: absolute;
+    width: 10vw;
+    background-color: white;
+    border: 1px solid black;
+    right: 0;
+    margin-right: 1vw;
+    height: 2rem;
+    text-align: center;
+    top: 32%;
+}
+
+.navbar_button:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 1px solid black;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.navbar_button:active {
+    outline: none;
+    border: 1px solid black;
+}
+
+.navbar_button:focus {
+    outline: 0;
+}
+
+.sidenav {
+    display: none;
+}
+
+.pages_box_navbar {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    color:white;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.pages_box_navbar:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.pages_box_navbar:active {
+    outline: none;
+    border: none;
+}
+
+.pages_box_navbar:focus {
+    outline: 0;
+}
+
+.pages_box_navbar::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+    margin-top: 0.5rem;
+}
+
+.pages_box_navbar:hover::after {
+    width: 100%;
+}
+
+.active_page_box_navbar {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    color:white;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;  
+}
+
+.active_page_box_navbar::after {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.active_page_box_navbar:active {
+    outline: none;
+    border: none;
+}
+
+.active_page_box_navbar:focus {
+    outline: 0;
+}
+
+.resume {
+    color: black;
+}
+
+.resume:hover {
+    color: black;
+}
+
+.resume_navbar {
+    color: white;
+}
+
+.resume_navbar:hover {
+    color: white;
+}
+
+@media screen and (max-width: 1228px) {
+    .active_page_box {
+        font-size: 0.8em;
+    }
+
+    .pages_box {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .active_page_box {
+        font-size: 0.6em;
+    }
+
+    .pages_box {
+        font-size: 0.6em;
+    }
+
+    .right_content_box {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .active_page_box {
+        font-size: 0.4em;
+    }
+
+    .pages_box {
+        font-size: 0.4em;
+    }
+
+    .right_content_box {
+        margin-left: 0rem;
+    }
+    
+    .left_content_box {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 514px) {
+
+    .left_content_box {
+        font-size: 1.5em;
+    }
+
+    .right_content_box {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 432px) {
+
+    .parent_content_box {
+        justify-content: left;
+        margin-left: 1vw;
+    }
+
+    .right_content_box {
+        display: none;
+    }
+
+    .sidenav {
+        display: block;
+    }
+}
