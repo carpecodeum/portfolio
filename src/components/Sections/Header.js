@@ -10,6 +10,7 @@ import {
   moved,
   parent_content_box,
   left_content_box,
+  header_box,
   right_content_box,
   pages_box,
   parent_pages_box,
@@ -58,7 +59,11 @@ export default class Header extends React.Component {
     return (
       <div className={is_first ? fixed : moved}>
         <div className={parent_content_box}>
-          <div className={left_content_box}>{info.name}</div>
+          <div className={left_content_box}>
+            <button onClick={() => move_to_link(1)} className={header_box}>
+              {info.name}
+            </button>
+          </div>
           <div className={right_content_box}>
             {components.map((comp, index) => (
               <div key={index} className={parent_pages_box}>

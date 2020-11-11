@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Icon } from 'semantic-ui-react';
 
 import about_me from '../../configs/personal_info.json';
 
@@ -14,6 +13,7 @@ import {
   link_text_highlight,
   about_me_container_box,
   image_box,
+  about_me_image,
 } from '../../styles/About_me.css';
 
 export default class AboutMe extends React.Component {
@@ -53,16 +53,12 @@ export default class AboutMe extends React.Component {
             ))}
             <br />
             Got something interesting for me ? <br /> Let's{' '}
-            <a
-              href="https://youtu.be/hE2Ira-Cwxo?t=22"
-              target="_blank"
-              className={link_text}
-            >
+            <a href={about_me.vid} target="_blank" className={link_text}>
               talk
             </a>
             !{' '}
             <a
-              href="mailto:adityabhatnagar14@gmail.com"
+              href={about_me.socials.Gmail.link}
               target="_blank"
               className={link_text_highlight}
             >
@@ -79,7 +75,7 @@ export default class AboutMe extends React.Component {
             .
           </div>
           <div className={image_box}>
-            <img src={about_me.collage} />
+            <img src={about_me.collage} className={about_me_image} />
           </div>
         </div>
       </div>

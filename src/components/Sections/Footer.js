@@ -23,7 +23,13 @@ export default class Footer extends React.Component {
         <div className={footer_left}>
           <Logo />
           <div className={caption_box}>
-            <div>Like my Storm-Trooper theme website? Star it!</div>
+            <div>
+              Like my Storm-Trooper themed website?{' '}
+              <a href={contact.repo} target="_blank" className={a_box}>
+                Star
+              </a>{' '}
+              it!
+            </div>
             <div>Aditya Bhatnagar © 2020</div>
             <div>P.S. Did you find any of the easter-eggs? :P</div>
           </div>

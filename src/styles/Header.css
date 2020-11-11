@@ -35,7 +35,6 @@
 }
 
 .left_content_box {
-    font-family: 'Chivo', serif;
     font-weight: 300;
     font-size: 1.8em;
     color: black;
@@ -55,6 +54,31 @@
     padding-bottom: 1rem;
     width: 6.5vw;
     text-align: center;
+}
+
+.header_box {
+    font-family: 'Chivo', serif;
+    color: black;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.header_box:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.header_box:active {
+    outline: none;
+    border: none;
+}
+
+.header_box:focus {
+    outline: 0;
 }
 
 .pages_box {
@@ -203,20 +227,6 @@
 
 .pages_box_navbar:focus {
     outline: 0;
-}
-
-.pages_box_navbar::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
-    margin-top: 0.5rem;
-}
-
-.pages_box_navbar:hover::after {
-    width: 100%;
 }
 
 .active_page_box_navbar {

@@ -19,7 +19,7 @@ const AUTO_HEIGHT = 'section fp-auto-height';
 const SECTION_SEL = `.${SEL}`;
 const AUTO_HEIGHT_SEL = `${AUTO_HEIGHT}`;
 
-class Home extends React.Component {
+export default class Home extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -99,5 +99,3 @@ class Home extends React.Component {
     );
   }
 }
-
-export default Home;
