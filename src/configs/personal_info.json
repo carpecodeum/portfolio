@@ -1,0 +1,44 @@
+{
+    "name": "Aditya Bhatnagar",
+    "profile_pic": "src/assets/profile_pic.png",
+    "resume": "src/assets/Aditya_Bhatnagar_CV.pdf",
+    "collage": "src/assets/collage.png",
+    "institute": "Indian Institute of Technology, Roorkee",
+    "branch": "Chemical Engineering",
+    "year_name": "junior",
+    "fields_of_interests": [
+        "Software Engineering",
+        "Web Development",
+        "Competitive Programming",
+        "Cloud Computing"
+    ],
+    "hobbies": [
+        "reading books",
+        "watching documentaries",
+        "travelling",
+        "Star Wars"
+    ],
+    "strengths": "I focus on writing resuable, clean and maintainable code and I love problems-solving and critical thinking and my techical background facilitates that.",
+    "socials": {
+        "Github": {
+            "icon": "src/assets/icons/profile/github.svg",
+            "link": "https://github.com/carpecodeum"
+        },
+        "Gmail": {
+            "icon": "src/assets/icons/profile/gmail.svg",
+            "link": "mailto:adityabhatnagar14@gmail.com"
+        },
+        "Facebook": {
+            "icon": "src/assets/icons/profile/facebook.svg",
+            "link": "https://www.facebook.com/aditya.bhatnagar.355744"
+        },
+        "Linkedin": {
+            "icon": "src/assets/icons/profile/linkedin.svg",
+            "link": "https://www.linkedin.com/in/aditya-bhatnagar-2421a3178/"
+        },
+        "Medium": {
+            "icon": "src/assets/icons/profile/medium.svg",
+            "link": "https://medium.com/@abhatnagar_91984"
+        }
+    }
+}
