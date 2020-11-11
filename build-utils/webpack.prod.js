@@ -2,6 +2,7 @@ const commonPaths = require('./common-paths');
 
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const config = {
   mode: 'production',
@@ -39,6 +40,9 @@ const config = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'styles/[name].[hash].css',
+    }),
+    new CopyPlugin({
+      patterns: [{ from: 'src/assets', to: 'dist' }],
     }),
   ],
 };
