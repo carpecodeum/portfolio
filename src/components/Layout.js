@@ -1,22 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Header, Container, Divider, Icon } from 'semantic-ui-react';
+import { Container, Divider, Icon } from 'semantic-ui-react';
+import Header from './Sections/Header';
+import { base } from '../styles/layout.css';
 
-import { pullRight, h1 } from './layout.css';
-
-const Layout = ({ children }) => {
+const Layout = ({ children, isFirst, pageNo, isLast, moveToLink }) => {
   return (
-    <Container>
-      <Link to="/">
-        <Header as="h1" className={h1}>
-        </Header>
-      </Link>
+    <div className={base}>
+      <Header is_first={isFirst} page_no={pageNo} move_to_link={moveToLink} />
       {children}
-      <Divider />
-      <p className={pullRight}>
-        Made with <Icon name="heart" color="red" /> by <a href="" target="_blank"> Aditya Bhatnagar</a>
-      </p>
-    </Container>
+    </div>
   );
 };
 
