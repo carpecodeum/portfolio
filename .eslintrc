@@ -1,0 +1,49 @@
+{
+    "parserOptions": {
+      // Required for certain syntax usages
+      "ecmaVersion": 2019
+    },
+    "env": {
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:node/recommended",
+      "plugin:security/recommended"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        2,
+        {
+          "VariableDeclarator": {
+            "let": 2,
+            "const": 3
+          }
+        }
+      ],
+      "no-label-var": "error",
+      "no-var": "error",
+      "no-new-object": "error",
+      "object-shorthand": 1,
+      "quote-props": [
+        "error",
+        "as-needed"
+      ],
+      "no-array-constructor": "error",
+      "prefer-template": "error",
+      "template-curly-spacing": [
+        "error",
+        "never"
+      ],
+      "no-useless-escape": "error",
+      "no-eval": "error",
+      "no-trailing-spaces": "error",
+      "no-console": [
+        "warn"
+      ],
+      "no-process-exit": "warn"
+    }
+}
