@@ -42,7 +42,7 @@ const config = {
       filename: 'styles/[name].[hash].css',
     }),
     new CopyPlugin({
-      patterns: [{ from: 'src/assets', to: 'dist' }],
+      patterns: [{ from: 'src/assets', to: 'assets' }],
     }),
   ],
 };
