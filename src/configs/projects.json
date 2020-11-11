@@ -1,0 +1,98 @@
+{
+    "projects": [{
+            "name": "Labellab | Google Summer of Code 2020",
+            "org": "Sustainable Computing Research Organization (SCoRe Lab)",
+            "start_date": "1st May 2020",
+            "end_date": "1st August 2020",
+            "description": "LabelLab is a web-based, highly scalable and efficient Image labeling and project management tool for researchers for the primary purpose of path tracking of objects. My primary field of focus is around developing a scalable and reliable backend for the app, making project management tool and developing a labeller tool and containerizing the entire application using Docker and deploying it to the Google Cloud Platform.",
+            "github_url": "https://github.com/scorelab/LabelLab",
+            "github_icon": {
+                "dark": "src/assets/icons/projects/github_dark.svg",
+                "light": "src/assets/icons/projects/github_light.svg",
+                "description": "View Project"
+            },
+            "org_url": "https://summerofcode.withgoogle.com/archive/2020/projects/6227069278617600/",
+            "org_icon": {
+                "dark": "src/assets/icons/projects/gsoc_dark.svg",
+                "light": "src/assets/icons/projects/gsoc_light.svg",
+                "description": "View Project"
+            }
+        },
+        {
+            "name": "Cultural Society Website",
+            "org": "Design Studio",
+            "start_date": "December 2019",
+            "end_date": "January 2020",
+            "description": "Developed the website for the Cultural Society of IIT Roorkee under the aegis of Design Studio. The website incorporates the concepts of the Content Management System. It is developed with a full-fledged dashboard where various cultural group members can add various information about their group and upcoming events along with an archive for maintaining memories of previous events. Currently the website is under a Non-Disclosure Agreement.",
+            "org_url": "https://www.facebook.com/designstudio.iitr/",
+            "org_icon": {
+                "dark": "src/assets/icons/projects/ds_dark.svg",
+                "light": "src/assets/icons/projects/ds_light.svg",
+                "description": "Design Studio"
+            }
+        },
+        {
+            "name": "Noticeboard",
+            "org": "Information Management Group, IIT Roorkee",
+            "start_date": "August 2020",
+            "end_date": "Present",
+            "description": "It is the official notice-publishing portal of the institute used by the authorities and faculties alike to convey important notices by the administration or any other authority to the masses of the institute.",
+            "browser_icon": {
+                "dark": "src/assets/icons/projects/browser_dark.svg",
+                "light": "src/assets/icons/projects/browser_light.svg",
+                "description": "Login as a guest"
+            },
+            "url": "https://internet.channeli.in/noticeboard",
+            "org_url": "https://internet.channeli.in/maintainer_site/",
+            "org_icon": {
+                "dark": "src/assets/icons/projects/img_dark.svg",
+                "light": "src/assets/icons/projects/img_light.svg",
+                "description": "IMG"
+            }
+        },
+        {
+            "name": "Slambook",
+            "org": "Information Management Group, IIT Roorkee",
+            "start_date": "February 2020",
+            "end_date": "April 2020",
+            "description": "It is a web based slambook for the final year students of the insitute to cherish their long years at the college by sending and receiving virtual slams and memories in the form of photos.",
+            "org_url": "https://internet.channeli.in/maintainer_site/",
+            "org_icon": {
+                "dark": "src/assets/icons/projects/img_dark.svg",
+                "light": "src/assets/icons/projects/img_light.svg",
+                "description": "IMG"
+            }
+        },
+        {
+            "name": "Hidev - Social Network for Developers",
+            "start_date": "July 2019",
+            "end_date": "August 2019",
+            "description": "Made a social networking app for developers with the ability of building your own circle of developers, your portfolio, share/like/dislike posts, images and profiles and much more.",
+            "github_url": "https://github.com/carpecodeum/HiDev",
+            "github_icon": {
+                "dark": "src/assets/icons/projects/github_dark.svg",
+                "light": "src/assets/icons/projects/github_light.svg",
+                "description": "View Project"
+            }
+        },
+        {
+            "name": "Live-Streaming app",
+            "org": "Syntax Error Hackathon | SDS Labs",
+            "start_date": "September 2019",
+            "end_date": "September 2019",
+            "description": "Made a live-video streaming app during the campus hackathon organised by SDS Labs based on the concepts of RTMP servers and open-source based broadcasting channels.",
+            "github_url": "https://github.com/carpecodeum/live-streaming-app",
+            "github_icon": {
+                "dark": "src/assets/icons/projects/github_dark.svg",
+                "light": "src/assets/icons/projects/github_light.svg",
+                "description": "View Project"
+            },
+            "org_url": "https://hackathon.sdslabs.co/",
+            "org_icon": {
+                "dark": "src/assets/icons/projects/sds_dark.svg",
+                "light": "src/assets/icons/projects/sds_light.svg",
+                "description": "Syntax Error"
+            }
+        }
+    ]
+}
