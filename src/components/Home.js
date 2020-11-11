@@ -60,7 +60,7 @@ export default class Home extends React.Component {
       >
         <ReactFullpage
           debug
-          licenseKey={process.env.FULLPAGE_API_KEY}
+          licenseKey={'yoBteQB#n2'}
           // navigation
           anchors={[...anchors]}
           sectionSelector={SECTION_SEL}
