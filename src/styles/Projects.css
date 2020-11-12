@@ -287,10 +287,25 @@
         }
     }
 
-    @media screen and (max-height: 700px) {
+    @media screen and (max-height: 900px) {
     
         .projects_container {
             height: 44rem;
+        }
+    }
+
+    @media screen and (max-height: 760px) {
+    
+        .projects_container {
+            height: 38rem;
+        }
+
+        .project_header {
+            font-size: 2.5em;
+        }
+
+        .project_box {
+            margin-bottom: 0.6rem;
         }
     }
 

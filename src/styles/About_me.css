@@ -88,6 +88,22 @@
             height: 39rem;
         }
     }
+
+    @media screen and (max-height: 760px) {
+    
+        .about_me_container {
+            height: 35rem;
+            /* padding-bottom: 1rem; */
+        }
+
+        .about_me_right_container {
+            font-size: 1.2em;
+        }
+
+        .about_me_header {
+            padding-bottom: 1rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1250px) {

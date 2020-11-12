@@ -96,6 +96,13 @@
             padding-bottom: 1rem;
         }
     }
+
+    @media screen and (max-height: 760px) {
+    
+        .experience_main {
+            height: 35rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1316px) {
