@@ -57,6 +57,26 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 1510px) {
+
+    @media screen and (max-height: 830px) {
+    
+        .skills_parent {
+            height: 28rem;
+        }
+
+        .skill_heading {
+            font-size: 1.7em;
+            margin-bottom: 1rem;
+        }
+
+        .skills_box {
+            height: 6rem;
+            padding-top: 1.5vw;
+        }
+    }
+}
+
 @media screen and (max-width: 1510px) {
 
     .skills_parent {
