@@ -287,7 +287,7 @@
         }
     }
 
-    @media screen and (max-height: 800px) {
+    @media screen and (max-height: 700px) {
     
         .projects_container {
             height: 44rem;
