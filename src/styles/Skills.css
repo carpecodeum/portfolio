@@ -81,7 +81,7 @@
     @media screen and (max-height: 760px) {
     
         .skills_parent {
-            height: 35rem;
+            height: 28rem;
         }
 
         .skill_heading {
@@ -90,7 +90,8 @@
         }
 
         .skills_box {
-            height: 8rem;
+            height: 6rem;
+            padding-top: 1.5vw;
         }
     }
 }
