@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { isMobile } from 'react-device-detect';
 
 import info from '../../configs/personal_info.json';
 import intro from '../../configs/intro.json';
@@ -31,7 +32,7 @@ export default class Intro extends React.Component {
             <div className={social_box}>
               {Object.keys(info.socials).map(key => (
                 <div className={icons_parent}>
-                  <div className={tooltiptext}>{key}</div>
+                  {!isMobile ? <div className={tooltiptext}>{key}</div> : null}
                   <a
                     href={info.socials[key].link}
                     target="_blank"

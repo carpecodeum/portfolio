@@ -1,16 +1,7 @@
 import React from 'react';
 import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
-import importedComponent from 'react-imported-component';
 
 import Home from './Home';
-import Loading from './Loading';
-
-const AsyncNoMatch = importedComponent(
-  () => import(/* webpackChunkName:'NoMatch' */ './NoMatch'),
-  {
-    LoadingComponent: Loading,
-  }
-);
 
 const App = () => {
   return (
@@ -18,7 +9,6 @@ const App = () => {
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route component={AsyncNoMatch} />
         </Switch>
       </div>
     </Router>

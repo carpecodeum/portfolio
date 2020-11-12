@@ -4,7 +4,7 @@
             "org": "Sustainable Computing Research Organization (SCoRe Lab)",
             "start_date": "1st May 2020",
             "end_date": "1st August 2020",
-            "description": "LabelLab is a web-based, highly scalable and efficient Image labeling and project management tool for researchers for the primary purpose of path tracking of objects. My primary field of focus is around developing a scalable and reliable backend for the app, making project management tool and developing a labeller tool and containerizing the entire application using Docker and deploying it to the Google Cloud Platform.",
+            "description": "LabelLab is a web-based Image labeling tool for researchers. My primary work was on around developing a backend for the app, making project management tool, developing a labeller, making the path-tracking feature for tracking labelled objects and containerizing the app.",
             "github_url": "https://github.com/scorelab/LabelLab",
             "github_icon": {
                 "dark": "assets/icons/projects/github_dark.svg",
@@ -23,7 +23,7 @@
             "org": "Design Studio",
             "start_date": "December 2019",
             "end_date": "January 2020",
-            "description": "Developed the website for the Cultural Society of IIT Roorkee under the aegis of Design Studio. The website incorporates the concepts of the Content Management System. It is developed with a full-fledged dashboard where various cultural group members can add various information about their group and upcoming events along with an archive for maintaining memories of previous events. Currently the website is under a Non-Disclosure Agreement.",
+            "description": "The website incorporates the concepts of the Content Management System. It is developed with a full-fledged dashboard for various cultural groups to add/edit/delete information about their group, upcoming events and maintain a image-galary.",
             "org_url": "https://www.facebook.com/designstudio.iitr/",
             "org_icon": {
                 "dark": "assets/icons/projects/ds_dark.svg",

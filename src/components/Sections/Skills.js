@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { isMobile } from 'react-device-detect';
 
 import skills from '../../configs/skills.json';
 
@@ -26,7 +27,9 @@ export default class Skills extends React.Component {
               <div className={skills_box}>
                 {skills[key].map(skill => (
                   <div className={icons_parent}>
-                    <div className={tooltiptext}>{skill.name}</div>
+                    {!isMobile ? (
+                      <div className={tooltiptext}>{skill.name}</div>
+                    ) : null}
                     <img src={skill.icon} className={skills_images} />
                   </div>
                 ))}

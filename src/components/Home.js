@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
+import { isMobile } from 'react-device-detect';
 
 import Layout from './Layout';
 import Footer from './Sections/Footer';
@@ -45,12 +46,25 @@ export default class Home extends React.Component {
     fullpage_api.moveSectionDown();
   }
 
+  // insert = (arr, index, newItem) => [
+  //   ...arr.slice(0, index),
+  //   newItem,
+  //   ...arr.slice(index),
+  // ];
+
   render() {
     const anchors = [];
     pages.components.map(comp => {
       anchors.push(comp.baseAnchor);
     });
+
+    // const mobile_anchors =
+    //   anchors && anchors.length !== 0 && this.insert(anchors, 2, '');
     const { page_no, is_first, is_last } = this.state;
+
+    // Array.prototype.insert = function (index, item) {
+    //   this.splice(index, 0, item);
+    // };
     return (
       <Layout
         moveToLink={this.moveToLink}
@@ -59,15 +73,11 @@ export default class Home extends React.Component {
         pageNo={page_no}
       >
         <ReactFullpage
-          debug
+          // debug
           licenseKey={'yoBteQB#n2'}
-          // navigation
           anchors={[...anchors]}
           sectionSelector={SECTION_SEL}
           onLeave={this.onLeave.bind(this)}
-          // afterSlideLoad={this.currentPageNo.bind(this)}
-          // sectionsColor={this.state.sectionsColor}
-
           render={({ fullpageApi, state }) => {
             return (
               <ReactFullpage.Wrapper>
@@ -77,6 +87,11 @@ export default class Home extends React.Component {
                 <div className={SEL}>
                   <Projects />
                 </div>
+                {/* {isMobile ? (
+                  <div className={SEL}>
+                    <Projects extra={true} />
+                  </div>
+                ) : null} */}
                 <div className={SEL}>
                   <Experiance />
                 </div>

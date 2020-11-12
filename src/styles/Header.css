@@ -277,6 +277,10 @@
     color: white;
 }
 
+.navbar_icon {
+    width: 6vw;
+} 
+
 @media screen and (max-width: 1228px) {
     .active_page_box {
         font-size: 0.8em;

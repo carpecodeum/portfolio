@@ -21,6 +21,12 @@
     color: white;
 }
 
+.experience_box_mobile {
+    display: flex;
+    width: 90vw;
+    margin-top: 2rem;
+}
+
 .experience_box_left {
     padding-top: 1rem;
     padding-left: 1vw;
@@ -172,25 +178,22 @@
         padding-bottom: 2rem;
     }
 
-    .experience_box {
-        margin-left: 3vw
-    }
-
     .experience_image {
-        height: 4rem;
+        height: 6rem;
+        width: 20vw;
     }
 
     .experience_heading {
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
     .experience_subheading {
-        font-size: 0.5em;
+        font-size: 0.7em;
         margin-top: 0rem;
     }
 
     .experience_description {
-        font-size: 0.6em;
+        font-size: 0.9em;
         margin-top: 0rem;
     }
 }

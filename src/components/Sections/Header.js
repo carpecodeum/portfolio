@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Icon } from 'semantic-ui-react';
 
 import info from '../../configs/personal_info.json';
 import pages from '../../configs/components.json';
@@ -24,6 +23,7 @@ import {
   active_page_box_navbar,
   resume,
   resume_navbar,
+  navbar_icon,
 } from '../../styles/Header.css';
 
 export default class Header extends React.Component {
@@ -85,7 +85,10 @@ export default class Header extends React.Component {
           </div>
           <div className={sidenav}>
             <button className={navbar_button} onClick={this.sidenavToggle}>
-              <Icon name={sideNav ? 'close' : 'sidebar'} />
+              <img
+                src={sideNav ? pages.assets.cancel : pages.assets.menu}
+                className={navbar_icon}
+              />
             </button>
             <div className={sideNav ? pages_navbar_open : pages_navbar}>
               {components.map((comp, index) => (

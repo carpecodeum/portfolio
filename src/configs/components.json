@@ -41,5 +41,9 @@
               },
               "baseAnchor": "footer"
         }
-    ]
+    ],
+    "assets": {
+        "menu": "assets/icons/menu.svg",
+        "cancel": "assets/icons/cancel.svg"
+    }
 }

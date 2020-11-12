@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { isMobile } from 'react-device-detect';
 
 import projects from '../../configs/projects.json';
 
@@ -7,11 +8,15 @@ import {
   projects_container,
   project_header,
   projects_box,
+  projects_box_mobile,
+  project_box_mobile,
   project_box,
   project_text,
+  project_text_mobile,
   project_title,
   project_info,
   project_description,
+  project_description_mobile,
   project_icons,
   light_icons,
   dark_icons,
@@ -19,11 +24,12 @@ import {
   icons_box,
   tooltiptext,
   project_images,
+  // project_info_mobile,
 } from '../../styles/Projects.css';
 
 export default class Projects extends React.Component {
   render() {
-    const projects_array = projects.projects;
+    const projects_array = isMobile ? projects.projects : projects.projects;
     return (
       <div className={projects_container}>
         <div className={project_header}>My Projects</div>
@@ -85,9 +91,11 @@ export default class Projects extends React.Component {
                   <span className={dark_icons}>
                     {project.github_url ? (
                       <div className={icons_parent}>
-                        <div className={tooltiptext}>
-                          {project.github_icon.description}
-                        </div>
+                        {!isMobile ? (
+                          <div className={tooltiptext}>
+                            {project.github_icon.description}
+                          </div>
+                        ) : null}
                         <a
                           href={project.github_url}
                           target="_blank"
@@ -102,9 +110,11 @@ export default class Projects extends React.Component {
                     ) : null}
                     {project.org_url ? (
                       <div className={icons_parent}>
-                        <div className={tooltiptext}>
-                          {project.org_icon.description}
-                        </div>
+                        {!isMobile ? (
+                          <div className={tooltiptext}>
+                            {project.org_icon.description}
+                          </div>
+                        ) : null}
                         <a
                           href={project.org_url}
                           target="_blank"
@@ -119,9 +129,11 @@ export default class Projects extends React.Component {
                     ) : null}
                     {project.url ? (
                       <div className={icons_parent}>
-                        <div className={tooltiptext}>
-                          {project.browser_icon.description}
-                        </div>
+                        {!isMobile ? (
+                          <div className={tooltiptext}>
+                            {project.browser_icon.description}
+                          </div>
+                        ) : null}
                         <a
                           href={project.url}
                           target="_blank"

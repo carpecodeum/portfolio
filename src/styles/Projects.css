@@ -6,7 +6,7 @@
 
 .project_header {
     font-size: 3em;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 .projects_box {
@@ -14,6 +14,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 8vw;
+    margin-left: -1vw;
+    /* background-color: red; */
+}
+
+.projects_box_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 0vw;
     margin-left: -1vw;
     /* background-color: red; */
 }
@@ -29,12 +38,26 @@
     color: white;
 }
 
+.project_box_mobile {
+    width: 86vw;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-right: 0vw;
+}
+
 .project_text {
     font-family: 'Poppins', sans-serif;
     padding-left: 3%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 3%;
+}
+
+.project_text_mobile {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .project_title {
@@ -48,10 +71,26 @@
     line-height: 1.7em;
 }
 
+.project_description_mobile {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    margin-bottom: 0.2rem;
+    line-height: 1.7em;
+    /* font-size: 0.9em;
+    margin-bottom: 1rem; */
+}
+
 .project_info {
     padding-bottom: 1rem;
     opacity: 0.6;
 }
+
+/* .project_info_mobile {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0.4rem;
+    font-size: .8em;
+    opacity: 0.6;
+} */
 
 .light_icons {
     display: flex;
@@ -104,15 +143,153 @@
     height: 36px;
 }
 
+@media screen and (max-height: 821px) {
+
+    .projects_container {
+        height: 40rem;
+    }
+
+    .project_header {
+        padding-bottom: 2rem;
+    }
+
+    .project_box {
+        margin-bottom: 0rem;
+        /* background-color: red; */
+    }
+
+    @media screen and (max-width: 1813px) {
+        
+        .project_box {
+            /* width: 37vw; */
+            margin-bottom: 0rem;
+            /* background-color: red; */
+        }
+
+        .project_info {
+            padding-bottom: 0.3rem;
+            opacity: 0.6;
+        }
+
+        .project_title {
+            /* font-family: 'Quattrocento', serif; */
+            font-size: 1.7em;
+            margin-bottom: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-height: 796px) {
+
+    @media screen and (max-width: 1410px) {
+        
+        .project_box {
+            /* width: 37vw; */
+            margin-bottom: 0rem;
+            /* background-color: red; */
+        }
+
+        .project_info {
+            padding-bottom: 0.3rem;
+            font-size: 0.7em;
+            opacity: 0.6;
+        }
+
+        .project_title {
+            /* font-family: 'Quattrocento', serif; */
+            font-size: 1.7em;
+            margin-bottom: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-height: 756px) {
+
+    .projects_container {
+        height: 37rem;
+    }
+
+    .project_header {
+        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 2.5em;
+    }
+
+    .project_box {
+        margin-bottom: 0rem;
+        /* background-color: red; */
+    }
+
+    .project_text {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .project_title {
+        font-size: 1.5em;
+        margin-bottom: 0.7rem;
+    }
+
+    .project_info {
+        padding-bottom: 1rem;
+        opacity: 0.6;
+    }
+
+    .project_description {
+        margin-bottom: 0.7rem;
+        line-height: 1.7em;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-height: 656px) {
+
+    .project_info {
+        padding-bottom: 0.5rem;
+        font-size: 0.8em;
+    }
+
+    .project_description {
+        margin-bottom: 0.2rem;
+    }
+
+    .project_images {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-height: 610px) {
+
+    .projects_container {
+        height: 26rem;
+    }
+
+}
+
 @media screen and (max-width: 1510px) {
 
     .projects_container {
-        height: 45rem;
+        height: 35rem;
+    }
+
+    @media screen and (height: 1366px) {
+    
+            .projects_container {
+                height: 71rem;
+            }
+    }
+
+    @media screen and (height: 1024px) {
+    
+        .projects_container {
+            height: 44rem;
+        }
     }
 
     .project_header {
         font-size: 2.7em;
-        padding-bottom: 3rem;
+        /* padding-bottom: 3rem; */
     }
 
     .project_title {
@@ -228,7 +405,12 @@
         padding-bottom: 1rem;
     }
 
-    .project_title {
+    /* .project_images {
+        width: 30px;
+        height: 30px;
+    } */
+
+    /* .project_title {
         margin-bottom: 0.4rem;
         font-size: 0.9em;
     }
@@ -242,12 +424,7 @@
         margin-bottom: 0.5rem;
     }
 
-    .project_images {
-        width: 20px;
-        height: 20px;
-    }
-
     .project_box {
         margin-bottom: 0.2rem;
-    }
+    } */
 }

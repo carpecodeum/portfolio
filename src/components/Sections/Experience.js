@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { isMobile } from 'react-device-detect';
 
 import experience from '../../configs/experience.json';
 
@@ -8,6 +9,7 @@ import {
   experience_header,
   experience_container,
   experience_box,
+  experience_box_mobile,
   experience_box_left,
   experience_box_right,
   experience_heading,
@@ -23,7 +25,7 @@ export default class Experiance extends React.Component {
         <div className={experience_header}>My Experiences</div>
         <div className={experience_container}>
           {experience.experiences.map(experience => (
-            <div className={experience_box}>
+            <div className={isMobile ? experience_box_mobile : experience_box}>
               <div className={experience_box_left}>
                 <a href={experience.org_url} target="_blank">
                   <img src={experience.org_icon} className={experience_image} />
