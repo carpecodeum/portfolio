@@ -81,6 +81,13 @@
     .about_me_image {
         height: 32rem;
     }
+
+    @media screen and (max-height: 900px) {
+
+        .about_me_container {
+            height: 39rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1250px) {

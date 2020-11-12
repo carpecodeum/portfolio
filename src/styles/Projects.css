@@ -275,12 +275,19 @@
 
     @media screen and (height: 1366px) {
     
-            .projects_container {
-                height: 71rem;
-            }
+        .projects_container {
+            height: 71rem;
+        }
     }
 
     @media screen and (height: 1024px) {
+    
+        .projects_container {
+            height: 44rem;
+        }
+    }
+
+    @media screen and (max-height: 900px) {
     
         .projects_container {
             height: 44rem;
