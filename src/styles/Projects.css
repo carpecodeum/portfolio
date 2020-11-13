@@ -6,7 +6,7 @@
 
 .project_header {
     font-size: 3em;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .projects_box {
@@ -272,7 +272,7 @@
 
     .project_header {
         padding-bottom: 1.5rem;
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
         font-size: 2.5em;
     }
 
