@@ -59,6 +59,22 @@
     border: 1px solid black;
 }
 
+@media screen and (min-width: 1580px) {
+
+    .experience_main {
+        height: 34rem;
+    }
+
+    .experience_description {
+        margin-top: 0rem;
+    }
+
+    .experience_header {
+        padding-bottom: 1rem;
+    }
+
+
+}
 @media screen and (max-width: 1580px) {
 
     .experience_main {

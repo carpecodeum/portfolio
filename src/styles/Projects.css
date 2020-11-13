@@ -143,6 +143,10 @@
     height: 36px;
 }
 
+@media screen and (min-width: 1816px) {
+
+
+}
 @media screen and (max-height: 821px) {
 
     .projects_container {
@@ -175,6 +179,63 @@
             /* font-family: 'Quattrocento', serif; */
             font-size: 1.7em;
             margin-bottom: 0.7rem;
+        }
+    }
+
+    @media screen and (max-width: 1792px) {
+        
+        .project_box {
+            /* width: 37vw; */
+            margin-bottom: 0rem;
+            /* background-color: red; */
+        }
+
+        .project_info {
+            padding-bottom: 0.2rem;
+        }
+
+        .project_title {
+            /* font-family: 'Quattrocento', serif; */
+            font-size: 1.6em;
+            margin-bottom: 0.6rem;
+        }
+
+        .project_description {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+
+@media screen and (max-height: 858px) {
+
+    @media screen and (max-width: 1758px) {
+        
+        .project_box {
+            /* width: 37vw; */
+            margin-bottom: 0rem;
+            /* background-color: red; */
+        }
+
+        .project_info {
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+@media screen and (max-height: 785px) {
+
+    @media screen and (max-width: 1758px) {
+        
+        .project_box {
+            /* width: 37vw; */
+            margin-bottom: 0rem;
+            /* background-color: red; */
+        }
+
+        .project_info {
+            padding-bottom: 0.1rem;
+            font-size: 0.7em;
         }
     }
 }
@@ -267,6 +328,24 @@
 
 }
 
+@media screen and (min-width: 1580px) {
+
+    @media screen and (max-height: 820px) {
+    
+        /* .projects_container {
+            height: 38rem;
+        }
+
+        .project_header {
+            font-size: 2.5em;
+        }
+
+        .project_box {
+            margin-bottom: 0.6rem;
+        } */
+    }
+}
+
 @media screen and (max-width: 1510px) {
 
     .projects_container {
@@ -287,21 +366,40 @@
         }
     }
 
+    @media screen and (max-height: 960px) {
+
+        .projects_container {
+            height: 41rem;
+        }
+    }
+
     @media screen and (max-height: 900px) {
     
         .projects_container {
             height: 44rem;
+        }
+
+        .project_header {
+            margin-bottom: 1rem;
+        }
+    }
+
+    @media screen and (max-height: 837px) {
+    
+        .projects_container {
+            height: 41rem;
         }
     }
 
     @media screen and (max-height: 760px) {
     
         .projects_container {
-            height: 38rem;
+            height: 35rem;
         }
 
         .project_header {
             font-size: 2.5em;
+            padding-bottom: 0;
         }
 
         .project_box {
